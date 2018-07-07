@@ -21,7 +21,7 @@ class Filters extends React.Component {
   }
 	
 	
-  goSearch = (history) => {
+  goSearch(history) {
 	this.props.dispatch({ type: 'DO_SEARCH', pushHistory: history });
 	let obj = {
 	  gender: this.props.searched.filters.gender,			

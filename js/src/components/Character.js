@@ -6,7 +6,7 @@ class Character extends React.Component {
   }
   
   
-  showCharProfile = (profile) => {
+  showCharProfile(profile) {
 	ReactDOM.render(
 	  <CharacterDetails 
 	    profile={profile} 
